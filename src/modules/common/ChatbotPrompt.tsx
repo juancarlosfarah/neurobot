@@ -120,9 +120,9 @@ const ChatbotPrompt: FC = () => {
   // display only if real chatbot prompt does not exist yet
   if (!realChatbotPromptExists) {
     // console.log(chatbotPrompt);
-    // if (chatbotPrompt?.data?.chatbotPrompt === '') {
-    //   return <>Please configure the chatbot prompt.</>;
-    // }
+    if (chatbotPrompt?.data?.chatbotPrompt === '') {
+      return <>Please configure the chatbot prompt.</>;
+    }
     return (
       <CommentContainer>
         <CustomCommentCard
