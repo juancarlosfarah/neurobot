@@ -48,9 +48,8 @@ To do so, clone this repository using the command line.
 git clone https://github.com/juancarlosfarah/neurobot.git
 ```
 
-Once you have cloned the repository, you can run the installer using `yarn`.
-
-Go into the repository you have just cloned (`cd neurobot`) and run `yarn`.
+Once you have cloned the repository, you can run the installer using Yarn.
+To do this, go into the repository you have just cloned (`cd neurobot`) and run `yarn`.
 This will install all the dependencies.
 
 #### Environment
