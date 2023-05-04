@@ -24,7 +24,7 @@ app.post('/', async (req, res) => {
       messages: prompt,
     });
     const message = completion.data.choices[0].message;
-    console.log(message.content);
+    // console.log(message.content);
     res.json({ completion: message.content });
   } catch {
     res.status(500);
