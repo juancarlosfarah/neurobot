@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import { Configuration, OpenAIApi } from 'openai';
 
+// environment variable by default is in .env at the root of the project
 dotenv.config();
 
 const app = express();
