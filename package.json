@@ -55,7 +55,7 @@
     "typescript": "4.9.5"
   },
   "scripts": {
-    "start": "concurrently npm:dev:front npm:dev:back",
+    "start": "concurrently npm:start:front npm:start:back",
     "start:front": "yarn vite",
     "start:back": "nodemon server/index.mjs",
     "start:test": "yarn vite --mode test",
