@@ -20,7 +20,7 @@ app.post('/', async (req, res) => {
 
   try {
     const completion = await openai.createChatCompletion({
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-4',
       messages: prompt,
     });
     const message = completion.data.choices[0].message;
