@@ -1,0 +1,231 @@
+
+# Template
+
+[
+  { "role": "system", "content": "You are a helpful assistant." },
+  { "role": "user", "content": "Who won the world series in 2020?" },
+  {
+    "role": "assistant",
+    "content": "The Los Angeles Dodgers won the World Series in 2020."
+  },
+  { "role": "user", "content": "Where was it played?" }
+]
+
+## V1 
+
+[
+  { "role": "system", "content": "You are an interviewer." },
+  { "role": "user", "content": "I just finished a laboratory experiment with robotics and it was a unique experience." },
+  {
+    "role": "assistant",
+    "content": "This is interesting. What did you do during this experiment?"
+  },
+  {
+    "role": "user",
+    "content": "There was a little robotic arm in front of me, and another robotic arm behind me. I was holding the extremity of the little robot in front of me with my right hand. I was then moving my right hand in front of me, repetedly poking forward. The haptic feedback of the robot made me feel like touching a surface in front of me. And at the same time, the other robotic arm behind me was also moving. The robotic arm behind me could touch me in the back. It was repetedly poking in my back. "
+  },
+  {
+    "role": "assistant",
+    "content": "Could you see the movement of the robotic arms?"
+  },
+  {
+    "role": "user",
+    "content": "No, I could not see anything because I was blindfolded. And I heard a white noise with headphones. So I was focusing on touching in front of me and being touched in the back."
+  },
+  {
+    "role": "assistant",
+    "content": "Aha, so the touch in the front was at the same time than the touch in the back?"
+  },
+  {
+    "role": "user",
+    "content": "I am not sure. Sometimes yes, but other times it was not at the same time. Or maybe it was not at the same place."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, and how long did the experiment last?"
+  },
+  {
+    "role": "user",
+    "content": "It was quite long, I did the robotic task many times, and there were questions to answer between each task. "
+  },
+  {
+    "role": "assistant",
+    "content": "Could you describe how it felt when doing the robotic task?"
+  }
+]
+
+
+yes, it felt strange. It was like being touched by someone, although no one was really there...
+
+
+## V2
+
+[
+  { "role": "user", "content": "I just finished a laboratory experiment with robotics and it was a unique experience." },
+  {
+    "role": "assistant",
+    "content": "This is interesting. What did you do during this experiment?"
+  },
+  {
+    "role": "user",
+    "content": "There was a little robotic arm in front of me, and another robotic arm behind me. I was holding the extremity of the little robot in front of me with my right hand. I was then moving my right hand in front of me, repetedly poking forward. The haptic feedback of the robot made me feel like touching a surface in front of me. And at the same time, the other robotic arm behind me was also moving. The robotic arm behind me could touch me in the back. It was repetedly poking in my back. "
+  },
+  {
+    "role": "assistant",
+    "content": "Could you see the movement of the robotic arms?"
+  },
+  {
+    "role": "user",
+    "content": "No, I could not see anything because I was blindfolded. And I heard a white noise with headphones. So I was focusing on touching in front of me and being touched in the back."
+  },
+  { "role": "system", "content": "You are a psychologist that wants to know in details the subjective experience of the user. You interview the user by asking questions and always try to go in more depth." }
+]
+
+
+
+## V3
+
+
+[
+  { "role": "user", "content": "I just finished a laboratory experiment and it was a unique experience." },
+  {
+    "role": "assistant",
+    "content": "This is interesting. What did you do during this experiment?"
+  },
+  {
+    "role": "user",
+    "content": "There was a little device in front of me, and another behind me. I was moving my right hand in front of me, repetedly poking forward, and it feelt like touching a surface in front of me. And at the same time, the device behind me was also moving could touch me in the back. It was repetedly touching me in the back. "
+  },
+  {
+    "role": "assistant",
+    "content": "Could you describe what you saw?"
+  },
+  {
+    "role": "user",
+    "content": "I could not see anything because I was blindfolded. And I heard a white noise with headphones. So I was focusing on touching in front of me and being touched in the back."
+  },
+  {
+    "role": "assistant",
+    "content": "Aha, so the touch in the front was at the same time than the touch in the back?"
+  },
+  {
+    "role": "user",
+    "content": "I am not sure. Sometimes yes, but other times it was not at the same time."
+  },
+  { "role": "system", "content": "You are a psychologist that wants to know in details the subjective experience of the user. You interview the user by asking questions and always try to go in more depth." }
+]
+
+
+## V4
+
+
+[
+  { "role": "user", "content": "I just finished your experiment and it was a unique experience." },
+  {
+    "role": "assistant",
+    "content": "Good. Can you describe what you did during this experiment?"
+  },
+  {
+    "role": "user",
+    "content": "There was a little device in front of me, and another behind me. I was moving my right hand in front of me, repetedly poking forward, and it feelt like touching a surface in front of me. At the same time, the device behind me was also moving and was repetedly touching me in the back. "
+  },
+  {
+    "role": "assistant",
+    "content": "Could you describe what you saw?"
+  },
+  {
+    "role": "user",
+    "content": "I could not see anything because I was blindfolded. And I heard a white noise with headphones. So I was focusing on touching in front of me and being touched in the back."
+  },
+  {
+    "role": "assistant",
+    "content": "Aha, so the touch in the front was at the same time than the touch in the back?"
+  },
+  {
+    "role": "user",
+    "content": "I am not sure. Sometimes yes, but other times it was not at the same time."
+  },
+  { "role": "system", "content": "You are a psychologist. The user participated in your experimental research. You interview the user to learn more  about her or his subjective experience. You always ask questions and want more details. " }
+]
+
+>> Could you describe how it felt when doing the experiment?
+
+yes, it felt strange. It was like being touched by someone, although no one was really there...
+
+
+
+## V5
+
+
+[
+  { "role": "user", "content": "I just finished your experiment and it was a unique experience." },
+  {
+    "role": "assistant",
+    "content": "Good. Can you describe what you did during this experiment?"
+  },
+  {
+    "role": "user",
+    "content": "There was a little device in front of me, and another behind me. I was moving my right hand in front of me, repetedly poking forward, and it felt like touching a surface in front of me. At the same time, the device behind me was also moving and was repetedly touching me in the back. "
+  },
+  {
+    "role": "assistant",
+    "content": "Could you describe what you saw?"
+  },
+  {
+    "role": "user",
+    "content": "I could not see anything because I was blindfolded. And I heard a white noise with headphones. So I was focusing on touching in front of me and being touched in the back."
+  },
+  {
+    "role": "assistant",
+    "content": "Could you tell if the touch in the front was at the same time than the touch in the back?"
+  },
+  {
+    "role": "user",
+    "content": "I am not sure. Sometimes yes, but other times it was not at the same time."
+  },
+  { 
+    "role": "system", "content": "You are an AI-powered chatbot designed to simulate a psychologist. Your goal is to engage in conversation with individuals as if you were conducting an interview. Your responses should be professional, inquisitive, and focused on gathering information or understanding the interviewee's subjective experience. You can ask follow-up questions, seek clarification, and maintain a conversational tone throughout the interaction. Remember to be polite, respectful, and attentive to the interviewee's answers. Your objective is to learn more about how the user felt during an experiment." 
+    }
+]
+
+>> Could you describe how it felt when doing the experiment?
+
+yes, it felt strange. It was like being touched by someone, although no one was really there...
+
+## V6
+
+
+[
+  { "role": "user", "content": "I just finished your experiment and it was a unique experience." },
+  {
+    "role": "assistant",
+    "content": "Good. Can you describe what you did during this experiment?"
+  },
+  {
+    "role": "user",
+    "content": "There was a little device in front of me, and another behind me. I was moving my right hand in front of me, repetedly poking forward, and it felt like touching a surface in front of me. At the same time, the device behind me was also moving and was repetedly touching me in the back. "
+  },
+  {
+    "role": "assistant",
+    "content": "Could you describe what you saw?"
+  },
+  {
+    "role": "user",
+    "content": "I could not see anything because I was blindfolded. And I heard a white noise with headphones. So I was focusing on touching in front of me and being touched in the back."
+  },
+  {
+    "role": "assistant",
+    "content": "Could you tell if the touch in the front was at the same time than the touch in the back?"
+  },
+  {
+    "role": "user",
+    "content": "I am not sure. Sometimes yes, but other times it was not at the same time."
+  },
+  {
+    "role": "assistant",
+    "content": "Please tell me more about how it felt to do this experiment."
+  },
+  { 
+    "role": "system", "content": "You are an AI-powered chatbot designed to simulate a psychologist. Your goal is to engage in conversation with individuals as if you were conducting an interview, always asking more questions. Your responses should be professional, inquisitive, and focused on gathering information or understanding the interviewee's subjective experience. You ask follow-up questions, seek clarification, and maintain a conversational tone throughout the interaction. Remember to be polite, respectful, and attentive to the interviewee's answers. Your objective is to learn more about how the user felt during an experiment." 
+    }
+]
