@@ -19,9 +19,11 @@ app.post('/', async (req, res) => {
   // console.log(prompt);
 
   try {
+    // doc at https://platform.openai.com/docs/api-reference/chat/create
     const completion = await openai.createChatCompletion({
-      model: 'gpt-4',
+      model: 'gpt-3.5-turbo',
       messages: prompt,
+      max_tokens: 1024,
     });
     const message = completion.data.choices[0].message;
     // console.log(message.content);
